@@ -8,9 +8,9 @@ import Services from './Services';
 function App() {
   return (
     <div className="container">
+      <Gallery/>
       <IntroContainer/>
       <Contact/>
-      <Gallery/>
       <Services/>
     </div>
   );
