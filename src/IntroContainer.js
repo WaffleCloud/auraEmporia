@@ -9,10 +9,10 @@ const introContainer = () => {
                 'color':'white',
                 '-webkit-text-stroke-width': '1px',
                 '-webkit-text-stroke-color': 'red'
-                 }}>Aura Emporia</p>
-            Handcrafted Art Services<br/>
+                 }}>Cirque De Délire</p>
+            Balloon Art  -  LED Gogo   -   Fire Dancing<br/>
             by<br/>
-            <p style={{'font-size':'30px'}}>Marisol Israeli Gomez</p>
+            <p style={{'font-size':'30px'}}>Rilo DeAnn</p>
         </div>
     )
 }
