@@ -3,7 +3,8 @@ const EventServices = () => {
     return(
         <div className="modal-overlay">
             <div className="event-services-content" style={{height:"600px", width:"500px"}}>
-            WHAT ARE YOU DOING WAY OVER THERE
+        Content Coming Soon!
+        Message me for Pricing Details
             </div>
         </div>
     )

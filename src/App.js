@@ -11,7 +11,7 @@ function App() {
     <div className="container">
       <Gallery/>
       <IntroContainer/>
-      <InstaFeeds token={process.env.TOKEN} limit={12}/>
+      {/* <InstaFeeds token={process.env.TOKEN} limit={12}/> */}
       <Contact/>
       <Services/>
     </div>

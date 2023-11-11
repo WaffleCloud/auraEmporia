@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
 import axios from 'axios'
-
 import Feed from './Feed'
 
 // import './instaFeeds.css'
