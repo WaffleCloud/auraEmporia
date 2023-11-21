@@ -1,5 +1,5 @@
-import './App.css';
-import InstaFeeds from './InstaFeeds';
+import './App.scss';
+// import InstaFeeds from './InstaFeeds';
 import IntroContainer from './IntroContainer';
 import Gallery from './Gallery';
 import Contact from './Contact';
