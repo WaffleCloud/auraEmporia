@@ -23,7 +23,7 @@ code {
     monospace;
 }
 
-@keyframes gradient {
+/* @keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
@@ -33,5 +33,5 @@ code {
   100% {
     background-position: 0% 50%;
   }
-}
+} */
 

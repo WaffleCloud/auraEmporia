@@ -1,5 +1,4 @@
-import './App.scss';
-// import InstaFeeds from './InstaFeeds';
+import './App.css';
 import IntroContainer from './IntroContainer';
 import Gallery from './Gallery';
 import Contact from './Contact';
@@ -11,7 +10,6 @@ function App() {
     <div className="container">
       <Gallery/>
       <IntroContainer/>
-      {/* <InstaFeeds token={process.env.TOKEN} limit={12}/> */}
       <Contact/>
       <Services/>
     </div>
