@@ -13,17 +13,32 @@
   html {
     font: 5vmin/1.3 Serif;
     overflow: scroll;
-    background: #123;
+    background: rgb(17,34,51);
   } 
-  
-  body, head {
-    display: flex;
+
+  .top {
+    display: block;
+    color: transparent;
     font-size: 52px;
+    height: 500vh;
+    width: 500vw;
+  }
+
+  head{
+    color: transparent;
+  }
+
+  body, .background{
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    font-size: 52px;
+    z-index: -50;
     color: transparent;
   }
   
-  head::before, head::after,
-  body::before, body::after {
+  .top::before, .top::after,
+  .background::before, .background::after {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -35,16 +50,28 @@
   }
   
   
-  body::before {
+  .background::before {
     @include dots(40);
     animation-duration: 44s;
     animation-delay: -27s;
   }
   
-  body::after {
+  .background::after {
     @include dots(40);
     animation-duration: 43s;
     animation-delay: -32s;
+  }
+  
+  .top::before {
+    @include dots(40);
+    animation-duration: 42s;
+    animation-delay: -23s;
+  }
+  
+  .top::after {
+    @include dots(40);
+    animation-duration: 41s;
+    animation-delay: -19s;
   }
   
   head::before {

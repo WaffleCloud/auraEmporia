@@ -3,6 +3,7 @@ import IntroContainer from './IntroContainer';
 import Gallery from './Gallery';
 import Contact from './Contact';
 import Services from './Services';
+import Bg from './Background';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <IntroContainer/>
       <Contact/>
       <Services/>
+      <Bg/>
     </div>
   );
 }

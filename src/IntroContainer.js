@@ -1,6 +1,6 @@
 import './App.css';
 
-const introContainer = () => {
+const IntroContainer = () => {
     return(
         <div className="intro-container box">
             <p style={{
@@ -17,4 +17,4 @@ const introContainer = () => {
     )
 }
 
-export default introContainer;
+export default IntroContainer;

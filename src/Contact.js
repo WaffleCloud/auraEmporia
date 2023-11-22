@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="contact-container box" style={{'font-size':'30px'}}>
             <div>Book Now</div><br/>
             <div><img style={{'max-height': '20px', 'max-width': '20px'}}src={cellPhone} alt="cell phone"></img> 442-400-0961</div><br/>
-            <div><img style={{'max-height': '20px', 'max-width': '20px'}}src={email} alt="email"></img>CiqueDeDelire@gmail.com</div> 
+            <div><img style={{'max-height': '20px', 'max-width': '20px'}}src={email} alt="email"></img>CirqueDeDelire@gmail.com</div> 
             {/* <iframe 
             title='ig feed'
             src='https://www.juicer.io/api/feeds/cirquededelire/iframe' 

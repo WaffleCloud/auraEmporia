@@ -2,18 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Mooli&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Macondo&family=swap');
 body {
-  border: rgba(255, 255, 255, 0.7);
-  border-radius: 50px;
+  /* border: rgba(255, 255, 255, 0.7); */
+  /* border-radius: 50px; */
   font-family:'Macondo', cursive;
-  margin: 20px;
+  margin: 0px;
   overflow: scroll;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: rgb(13, 25, 37); */
   /* background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 20s ease infinite; */
-  height: 100%;
+  /* height: 100%; */
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
 }
