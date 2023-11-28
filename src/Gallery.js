@@ -1,14 +1,20 @@
 
 import { galleryObj } from "./data";
 
-const Gallery = () =>{
+const Gallery = ({setModal, setPicture, modal, picture}) =>{
+
+    // const divClickHandler = () =>{
+    //     setModal(true)
+    //     setPicture(image)
+    // }
      
     return(
 
         <div className="gallery-container">
-            <div className="slider-track">
+            <div className="slider-track" >
                     {galleryObj.map((image, i) => (
-                        <div className="slide">
+                        <div className="slide" onClick={()=>{setModal(true)
+                         setPicture(image.image)}}>
                         <img
                             key={i}
                             src={image.image}
@@ -17,11 +23,15 @@ const Gallery = () =>{
                             style={{
                                 'height': '15vh',
                                 'width': '15vw',
-                                'margin': '1rem',
                             }}
+                            onClick={()=>{setModal(true)
+                                 setPicture(image.image)}}
                         />
                         </div>
                     ))}
+            </div>
+            <div className="gallery-text">
+                Tap image to enlarge
             </div>
         </div>
     

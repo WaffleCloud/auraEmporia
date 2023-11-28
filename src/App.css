@@ -69,12 +69,7 @@ p{
 }
 
 
-.gallery-container .slider-track{
-    display: flex;
-    flex-direction: row;
-    max-width: 700px;
-    animation: scroll 40s linear infinite;
-}
+
 
 .gallery-container{
     border: rgba(0, 0, 0, 0.7) solid 2px;
@@ -82,13 +77,21 @@ p{
     display: flex;
     justify-content: center;
     text-align: center;
-   border-radius: 50px;
+    border-radius: 50px;
     align-items: space-evenly;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     overflow: hidden;
     position: relative;
     min-width: 60vw;
+    padding: 30px;
+}
+
+.gallery-text{
+    color: rgb(255,255,255);
+    font-size: 15px;
+    margin-bottom: -30px;
+    margin-top: 15px;
 }
 
 .image{
@@ -121,6 +124,23 @@ image:hover{
     
 }
 
+.modal {
+    width: 100vw;
+    height: 100vh;
+    border: solid 3px rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    top: 0%;
+    right: 0%;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
 .modal-overlay{
     border: solid 3px rgba(0, 0, 0, 0.8);
     width: 100vw;
@@ -138,6 +158,18 @@ image:hover{
     overflow: hidden;
 }
 
+.photo-div{
+    height: 70vh;
+    width: 70vw;
+    object-fit: scale-down;
+}
+
+.picture{
+    object-fit: scale-down;
+    height: 100%;
+    width: 100%;
+}
+
 
 .services-container{
     display: flex;
@@ -151,17 +183,21 @@ image:hover{
     justify-content: center;
     align-items: center;
     object-fit: fill;
-    margin: 30px;
-    margin: auto;
+    /* margin: 30px; */
+    /* margin: auto; */
   
 }
 
 .slide:hover{
-    border: 1px solid rgb(255,255,255);
+    /* border: 1px solid rgb(255,255,255); */
     cursor: pointer;
 }
 
 .slider-track{
+    display: flex;
+    flex-direction: row;
+    max-width: 700px;
+    animation: scroll 40s linear infinite;
     object-fit: scale-down;
 }
 
@@ -198,6 +234,8 @@ image:hover{
     transform: translateX(-99%);
    }
   }
+
+
 
 .box{
     /* border: rgba(255,255,255,0.7) solid 2px;

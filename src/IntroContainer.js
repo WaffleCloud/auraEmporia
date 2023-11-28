@@ -6,9 +6,9 @@ const IntroContainer = () => {
             <p style={{
                 'font-size': '60px', 
                 'fontFamily':'Aladin, cursive', 
-                'color':'white',
-                '-webkit-text-stroke-width': '1px',
-                '-webkit-text-stroke-color': 'red'
+                'color':'rgb(199,21,133)',
+                '-webkit-text-stroke-width': '3px',
+                '-webkit-text-stroke-color': 'rgb(64,224,208)',
                  }}>Cirque De Délire</p>
             Balloon Art  -  LED Gogo   -   Fire Dancing<br/>
             by<br/>
